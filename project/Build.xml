@@ -24,7 +24,7 @@
 			<lib name="${haxelib:hxluajit}/project/luajit/lib/Windows/lua51-x86_64.lib" if="HXCPP_M64" unless="HXCPP_ARM64"  />
 			<lib name="${haxelib:hxluajit}/project/luajit/lib/Windows/lua51-x86.lib" if="HXCPP_M32" />
 			<lib name="${haxelib:hxluajit}/project/luajit/lib/Windows/lua51-arm64.lib" if="HXCPP_ARM64" />
-			<lib name="${haxelib:hxluajit}/project/luajit/lib/Windows/lua51-armv7.lib" if="HXCPP_M64" />
+			<lib name="${haxelib:hxluajit}/project/luajit/lib/Windows/lua51-armv7.lib" if="HXCPP_ARMV7" />
 		</section>
 
 		<section if="macos">
